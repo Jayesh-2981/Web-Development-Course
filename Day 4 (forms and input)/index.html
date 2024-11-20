@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Forms and Input</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <h1>Form format or preview</h1>
+
+  <form action="post">
+
+    <!-- *username part -->
+    <div>
+      <label for="username">Enter Your Username : </label>
+      <input type="text" name="username" id="username" placeholder="Enter Your username" />
+    </div>
+
+    <!-- *Radio button part -->
+    <div>
+      <input type="radio" id="male" name="gender" value="male">
+      <label for="male">Male</label>
+      <input type="radio" id="Female" name="gender" value="Female">
+      <label for="Female">Female</label>
+    </div>
+
+    <!-- *Checkbox part -->
+    <div>
+      <input type="checkbox" name="follow" id="follow" value="yes">
+      <label for="follow">Follow Me on Git-Hub </label>
+    </div>
+
+    <!-- *TextArea part -->
+    <div>
+      <label for="comment">Enter Your comment</label>
+      <br>
+      <textarea name="comment" id="comment" rows="4" cols="50"></textarea>
+    </div>
+
+    <!-- *Select tag -->
+    <div>
+      <select name="fruits" id="fruits">
+        <option value="apple">Apple</option>
+        <option value="banana">Banana</option>
+        <option value="cherry">Cherry</option>
+      </select>
+    </div>
+  </form>
+  <script src="script.js"></script>
+</body>
+
+</html>

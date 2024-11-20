@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Images Lists and Tables</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- *Image tag -->
+    <h2>Image Tag</h2>
+    <img height="500" src="./assets/Dining Table.jpg" alt="Dining Table" />
+
+    <!-- *table part -->
+    <h2>Table</h2>
+
+    <table>
+      <!-- caption  -->
+      <caption>
+        Details
+      </caption>
+
+      <!-- header -->
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Designation</th>
+          <th>Favorite Language</th>
+        </tr>
+      </thead>
+
+      <!-- body  -->
+      <tbody>
+        <!-- row 1 -->
+        <tr>
+          <td>Jayesh</td>
+          <td colspan="2">Student</td>
+        </tr>
+
+        <!-- row 2 -->
+        <tr>
+          <td>JD</td>
+          <td>Student</td>
+          <td rowspan="2">Javascript</td>
+        </tr>
+
+        <!-- row 3 -->
+        <tr>
+          <td>Jagga Daku</td>
+          <td>Student</td>
+        </tr>
+      </tbody>
+
+      <!-- footer  -->
+      <tfoot>
+        <tr>
+          <th>footer</th>
+          <th>footer</th>
+          <th>footer</th>
+        </tr>
+      </tfoot>
+    </table>
+
+    <!-- *list part -->
+
+    <!-- unordered List -->
+    <h2>Unordered List</h2>
+    <ul>
+      <li>Pen</li>
+      <li>Pencil</li>
+      <li>Eraser</li>
+    </ul>
+
+    <ul type="square">
+      <li>Notebook</li>
+      <li>Marker</li>
+    </ul>
+
+    <!-- Ordered list -->
+
+    <h2>Ordered List</h2>
+    <ol>
+      <li>Mango</li>
+      <li>Orange</li>
+      <li>Litchi</li>
+    </ol>
+
+    <ol type="a" start="3">
+      <li>Pen</li>
+      <li>Pencil</li>
+    </ol>
+
+    <!-- Definition list -->
+
+    <h2>Definition List</h2>
+    <!-- dl : definition list  -->
+    <dl>
+      <!-- dt : definition term  -->
+      <dt><strong>HTML</strong></dt>
+      <dd>
+        <!-- dd : definition data  -->
+        HyperText Markup Language: The standard language for creating web pages.
+      </dd>
+
+      <dt><strong>CSS</strong></dt>
+      <dd>
+        Cascading Style Sheets: A stylesheet language used for describing the
+        look and formatting of a document written in HTML.
+      </dd>
+
+      <dt><strong>JavaScript</strong></dt>
+      <dd>
+        A programming language commonly used in web development to add
+        interactive features.
+      </dd>
+    </dl>
+    <script src="script.js"></script>
+  </body>
+</html>
