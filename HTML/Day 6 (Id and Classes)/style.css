@@ -1,0 +1,20 @@
+body {
+  background-color: aquamarine;
+}
+
+.red {
+  color: red;
+}
+
+.bg-yellow {
+  background-color: yellow;
+}
+
+#seconddiv {
+  color: blue;
+  background-color: aliceblue;
+}
+
+span {
+  background-color: yellowgreen;
+}
