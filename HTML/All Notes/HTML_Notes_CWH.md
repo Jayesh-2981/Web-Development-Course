@@ -1,6 +1,6 @@
 # Introduction
 
-- HTML :- Hyper Text Markup Language
+- HTML : Hyper Text Markup Language
 - HTML is the language of the web. It is used to create websites
 - We use HTML tags to define look & feel of a website.
 - With understanding of these tags and how to put them together, we can create beautiful websites easily.
@@ -13,9 +13,9 @@
 
 ## Analogy
 
-HTML :- Car body (only metal)
-CSS :- Car paint, decoration etc.
-JavaScript :- Car engine + interior logic
+- HTML :- Car body (only metal)
+- CSS :- Car paint, decoration etc.
+- JavaScript :- Car engine + interior logic
 
 # Chapter 1 : Creating our first Website
 
@@ -24,17 +24,17 @@ JavaScript :- Car engine + interior logic
 
 ## A Basic HTML Page
 
-<!DOCTYPE html> : Specifies this is an html5 document
-<html lang="en">  : Root of an HTML page
-  <head>  : Contains page metadata
+<!DOCTYPE html>
+<html lang="en"> 
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Website</title>/>   : Contains Title
+    <title>My Website</title>/> 
   </head>
-  <body>  : The main body of the page (rendered by the brwoser)
-    <h1>This is a heading </h1> : heading tag
-    <p>My paragraph</p> : paragraph tag
-  </body> : closing tag
+  <body> 
+    <h1>This is a heading </h1> 
+    <p>My paragraph</p>
+  </body> 
 </html>
 
 - A tag is like a container for either content or other HTML tags.
