@@ -24,18 +24,20 @@
 
 ## A Basic HTML Page
 
-<!DOCTYPE html>
-<html lang="en"> 
-  <head>
+```
+<!DOCTYPE html> : Specifies this is an html5 document
+<html lang="en">  : Root of an HTML page
+  <head>  : Contains page metadata
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Website</title>/> 
+    <title>My Website</title>/>   : Contains Title
   </head>
-  <body> 
-    <h1>This is a heading </h1> 
-    <p>My paragraph</p>
-  </body> 
+  <body>  : The main body of the page (rendered by the brwoser)
+    <h1>This is a heading </h1> : heading tag
+    <p>My paragraph</p> : paragraph tag
+  </body> : closing tag
 </html>
+```
 
 - A tag is like a container for either content or other HTML tags.
 
@@ -44,21 +46,21 @@
 - Head & body tags are children of HTML tag.
 - HTML is the parent of head & body tags
 - Most of the HTML elements have opening & closing tag with content in between opening & closing tags.
-- Some HTML tags have no content. These are called Empty Elements eg. <br>
+- Some HTML tags have no content. These are called Empty Elements eg. `<br>`
 - We can wither use .htm or .html extension
 - We can use "Inspect Element" or "View Page Source" option from chrome to look into a website's HTML code.
 
-HTML element = start tag + content + End tag
+- HTML element = start tag + content + End tag
 
 ## Comments in in HTML
 
 - Comments in HTMl are used to mark text which should not be parsed. They can help document the source code.
 
-  <!-- HTML Comment -->
+  `<!-- HTML Comment -->`
 
 ## Case Sensitivity
 
-- HTML is a case insensitive langaue. <H1> and <h1> tags are the same.
+- HTML is a case insensitive langaue. `<H1> and <h1>` tags are the same.
 
 # Chapter 2 : Basic HTML Tags
 
@@ -66,17 +68,18 @@ HTML element = start tag + content + End tag
 
 ## HTML Element
 
-- Everything from starting to the ending tag.
-  <body>  :- opening tag
-  content
-  </body> :- closing tag
+- Everything from starting to the ending tag.<br>
+  `<body>` : opening tag
+  content <br>
+  `</body>` : closing tag
 
 ## HTML Attributes
 
 - used to add more information corresponding to an HTML tag.
-- Example : <a href="https://google.com/">Google </a>
-  - <a> :- anchor tag
-  - href="" :- href attribute
+- Example : <br>
+  `<a href="https://google.com/">Google </a>`<br>
+  `<a>` : anchor tag<br>
+  `href=""` : href attribute
 - We can either use single or double quotes in attributes
 
 ## Heading tag
@@ -84,36 +87,41 @@ HTML element = start tag + content + End tag
 - Heading tag is usec to mark headings in HTML.
 - From h1 to h6, we have tags for the most important to the least important heading.
 
+  ```
   <h1>Most Important heading</h1>
   <h2>Another heading h2</h2>
   <h3>Another heading h3</h3>
   <h4>Another heading h4</h4>
   <h5>Another heading h5</h5>
   <h6>Another heading h6</h6>
+  ```
 
 - Note : We should not use HTML headings to make text thick or bold.
 
 ## The Parapgraph tag
 
-- Paragraph tags are used to add paragraphs to an HTML page.
-  <p> This is a paragraph </p>
+- Paragraph tags are used to add paragraphs to an HTML page.<br>
+  `<p> This is a paragraph </p>`
 
 ## The Anchor tag
 
-- The Anchor tag is used to add links to an existing content inside an HTML page.
-  <a href="htps://google.com">Click me </a>
+- The Anchor tag is used to add links to an existing content inside an HTML page. <br>
+  `<a href="htps://google.com">Click me </a>`
 
 ## The img tag
 
-- img tag is used to add images in an HTML page
-  <img src="image.jpg"> : retrive url of an image
+- img tag is used to add images in an HTML page <br>
+  `<img src="image.jpg"> : retrive url of an image`
 
 ## Bold, italic and underline tags
 
 - We can use bold, italic and underline tags to highlight the text as follows:
-  <b> This is bold </b>
-  <i> This is italic </i>
-  <u> This is underline </u>
+
+```
+<b> This is bold </b>
+<i> This is italic </i>
+<u> This is underline </u>
+```
 
 ## br tag
 
@@ -125,51 +133,58 @@ HTML element = start tag + content + End tag
 
 ## hr tag
 
-- <hr> tag in HTML is used to create a horizontal ruler often used to separate the content.
+- `<hr>` tag in HTML is used to create a horizontal ruler often used to separate the content.
 
 ## Subscript & superscript
 
-- We can add subscript and superscript in HTML as follows:
-  <sub> This </sub> is subscript
-  <sup> This </sup> is superscript
+- We can add subscript and superscript in HTML as follows:<br>
+  `<sub> This </sub> is subscript`<br>
+  `<sup> This </sup> is superscript`
 
 ## pre tag
 
 - HTML always ignores extra spaces and newline. In order to display a piece of text as is, we use pre tag.
+  ```
   <pre>
-      This is written
-      using pre
-      tag
+    This is written
+    using pre
+    tag
   </pre>
+  ```
 
 # Chapter 3 : Creating a page layout
 
 - When we use the right tag in right place, it results in a better page layout, better indexing by search engines and better user experience.
 - We use the following tag to get the job done.
 
-  <header>
-  <main>
-  <footer>
+```
+<header>
+<main>
+<footer>
+```
 
 - Header tag contains nav tag
 - Inside the main tag we insert the following tags:
-  <main>    :- The main opening tag
-  <section> :- A page section
-  <article> :- a sekf contained content
-  <aside>   :- content aside from the content (eg. ads etc.)
-  </main>   :- The main closing tag
+
+```
+<main>    : The main opening tag
+<section> : A page section
+<article> : a sekf contained content
+<aside>   : content aside from the content (eg. ads etc.)
+</main>   : The main closing tag
+```
 
 - Creating a page like this is not necessary but it created a readable & structured layout.
 - Also they are useful for SEO (Search Engine Optimization).
 
 ## Link Attributes
 
-- <a href="/conact"> Contact us </a> :- Contact page open in same tab
-- <a href="/contact" target="blank">Contact us </a> :- Opens in a new tab
+- `<a href="/conact"> Contact us </a>` : Contact page open in same tab <br>
+- `<a href="/contact" target="blank">Contact us </a>` : Opens in a new tab <br>
 - We can put any content inside an anchor tag (images, headings etc are all allowed).
 - If the page is inside a directory, we need to make sure that we link to the correct page. (same applies to img tag as well)
-- We can add links to images like this
-  <a href="/about"><img src="a.jpg" width="120"> </a> :- Height will be set automatically.
+- We can add links to images like this<br>
+  `<a href="/about"><img src="a.jpg" width="120"> </a>`: Height will be set automatically.
 
 ## The div tag
 
@@ -190,47 +205,62 @@ HTML element = start tag + content + End tag
 ### unordered list
 
 - Used to list unordered items.
+
+```
   <ul>
-    <li> Home </li>
-    <li> About </li>
-        .......
-        .......
-        .......
+  <li> Home </li>
+  <li> About </li>
+      .......
+      .......
+      .......
   </ul>
+```
 
 ### ordered list
 
 - Used to list ordered items.
+
+```
   <ol>
-    <li> Phone </li>
-    <li> PC </li>
-    <li> Laptop </li>
+  <li> Phone </li>
+  <li> PC </li>
+  <li> Laptop </li>
   </ol>
+```
 
 ## Tables
 
-- The <table> tag is used to define in HTML.
+- The `<table>` tag is used to define in HTML.
 - It is used to format & display tabular data.
-- <tr> tag  : used to display table row
-- <td> tag  : used to display table data
-- <th> tag  : used to place of table data for displaying table header
+- `<tr>` tag : used to display table row
+- `<td>` tag : used to display table data
+- `<th>` tag : used to place of table data for displaying table header
 - We can define as many table rows as we want.
-- To add a caption to the table, we use <caption> tag inside table.
-- <thead> tag : used to wrap table head (caption & tr with th)
-- <tbody> tag : used to wrap the table body.
-- colspan="" attribute : This attribute is used to create cells spanning multiple columns.
-  <th colspan="3">Jayesh </th>  
-   - Spans 3 columns
-- rowspan="" attribute : This attribute is used to create cells spanning multiple rows.
-  <th rowspan="3">Jayesh</th>
+- To add a caption to the table, we use `<caption>` tag inside table.
+- `<thead>` tag : used to wrap table head (caption & tr with th)
+- `<tbody>` tag : used to wrap the table body.
+- `colspan=""` attribute : This attribute is used to create cells spanning multiple columns.<br>
+
+  `<th colspan="3">Jayesh </th>`
+
+  - Spans 3 columns
+
+- `rowspan=""` attribute : This attribute is used to create cells spanning multiple rows.<br>
+
+  `<th rowspan="3">Jayesh</th>`
+
   - spans 3 rows
 
 ## HTML Forms
 
 - An HTML form is used to collect input from the user form tag is used for the same.
-  <form>
-  ---Element of the form---
-  </form>
+
+```
+<form>
+---Element of the form---
+</form>
+```
+
 - There are different form elements for different kinds of user input.
 
 ### input element:
@@ -251,14 +281,15 @@ HTML element = start tag + content + End tag
 
 ### Embedding videos
 
-- Video tag is used to play videos in HTML
-  <video src="video.mp4">Error</video>
+- Video tag is used to play videos in HTML<br>
+
+  `<video src="video.mp4">Error</video>`
 
 ### Attributes for video
 
 - We can use :
-  - width : to adjust width of a video (Height automatically adjusts)
-  - We can use autoplay/loop to autoplay or loop the video.
+- width : to adjust width of a video (Height automatically adjusts)
+- We can use autoplay/loop to autoplay or loop the video.
 
 # Chapter 5 : Search Engine Optimization (SEO)
 
@@ -274,12 +305,16 @@ HTML element = start tag + content + End tag
 - HTML developers can implement SEO using the following techniques:
 
 - Set the title very nice & to the point
-- Set the meta description
-  - <meta name="description" content="...">
+- Set the meta description <br>
+
+  `<meta name="description" content="...">`
+
 - Set a nice URL slug.
 - Set the meta keywords tag.
-- Set the meta author tag.
-  - <meta name="author" content="Jayesh">
+- Set the meta author tag.<br>
+
+  ` <meta name="author" content="Jayesh">`
+
 - Set a favicon
 - Compress images & other resources
 - Remove unused HTML/CSS & Js files + compress them
