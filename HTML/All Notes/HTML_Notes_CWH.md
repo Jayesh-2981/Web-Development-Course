@@ -24,17 +24,17 @@ JavaScript :- Car engine + interior logic
 
 ## A Basic HTML Page
 
-<!DOCTYPE html> :- Specifies this is an html5 document
-<html lang="en">  :- Root of an HTML page
-  <head>  :- Contains page metadata
+<!DOCTYPE html> : Specifies this is an html5 document
+<html lang="en">  : Root of an HTML page
+  <head>  : Contains page metadata
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Website</title>/>   :- Contains Title
+    <title>My Website</title>/>   : Contains Title
   </head>
-  <body>  :- The main body of the page (rendered by the brwoser)
-    <h1>This is a heading </h1> :- heading tag
-    <p>My paragraph</p> :- paragraph tag
-  </body> :- closing tag
+  <body>  : The main body of the page (rendered by the brwoser)
+    <h1>This is a heading </h1> : heading tag
+    <p>My paragraph</p> : paragraph tag
+  </body> : closing tag
 </html>
 
 - A tag is like a container for either content or other HTML tags.
