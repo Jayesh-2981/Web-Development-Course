@@ -111,17 +111,17 @@
 ## The img tag
 
 - img tag is used to add images in an HTML page <br>
-  `<img src="image.jpg"> : retrive url of an image`
+  `<img src="image.jpg">` : retrive url of an image
 
 ## Bold, italic and underline tags
 
 - We can use bold, italic and underline tags to highlight the text as follows:
 
-```
-<b> This is bold </b>
-<i> This is italic </i>
-<u> This is underline </u>
-```
+  ```
+  <b> This is bold </b>
+  <i> This is italic </i>
+  <u> This is underline </u>
+  ```
 
 ## br tag
 
@@ -157,22 +157,22 @@
 - When we use the right tag in right place, it results in a better page layout, better indexing by search engines and better user experience.
 - We use the following tag to get the job done.
 
-```
-<header>
-<main>
-<footer>
-```
+  ```
+  <header>
+  <main>
+  <footer>
+  ```
 
 - Header tag contains nav tag
 - Inside the main tag we insert the following tags:
 
-```
-<main>    : The main opening tag
-<section> : A page section
-<article> : a sekf contained content
-<aside>   : content aside from the content (eg. ads etc.)
-</main>   : The main closing tag
-```
+  ```
+  <main>    : The main opening tag
+  <section> : A page section
+  <article> : a sekf contained content
+  <aside>   : content aside from the content (eg. ads etc.)
+  </main>   : The main closing tag
+  ```
 
 - Creating a page like this is not necessary but it created a readable & structured layout.
 - Also they are useful for SEO (Search Engine Optimization).
@@ -206,7 +206,7 @@
 
 - Used to list unordered items.
 
-```
+  ```
   <ul>
   <li> Home </li>
   <li> About </li>
@@ -214,19 +214,19 @@
       .......
       .......
   </ul>
-```
+  ```
 
 ### ordered list
 
 - Used to list ordered items.
 
-```
-  <ol>
-  <li> Phone </li>
-  <li> PC </li>
-  <li> Laptop </li>
-  </ol>
-```
+  ```
+    <ol>
+    <li> Phone </li>
+    <li> PC </li>
+    <li> Laptop </li>
+    </ol>
+  ```
 
 ## Tables
 
@@ -255,11 +255,11 @@
 
 - An HTML form is used to collect input from the user form tag is used for the same.
 
-```
-<form>
----Element of the form---
-</form>
-```
+  ```
+  <form>
+  ---Element of the form---
+  </form>
+  ```
 
 - There are different form elements for different kinds of user input.
 
