@@ -72,4 +72,4 @@ Here are some common attributes used in HTML tags:
 
 ## Conclusion
 
-- Understanding HTML is essential for anyone looking to build websites or engage with web technologies.
+Understanding HTML is essential for anyone looking to build websites or engage with web technologies.

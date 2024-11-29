@@ -99,4 +99,4 @@
 
 ## Conclusion
 
-- Understanding the structure of an HTML document is essential for web development. Mastering the key components—`<!DOCTYPE html>`, `<html>`, `<head>`, `<title>`, and `<body>`—ensures that web pages are functional and user-friendly.
+Understanding the structure of an HTML document is essential for web development. Mastering the key components—`<!DOCTYPE html>`, `<html>`, `<head>`, `<title>`, and `<body>`—ensures that web pages are functional and user-friendly.

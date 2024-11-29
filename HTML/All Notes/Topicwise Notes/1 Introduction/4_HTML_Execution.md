@@ -70,4 +70,4 @@
 
 ## Conclusion
 
-- In this tutorial, we learned the basics of HTML execution by creating a simple "Hello, World!" program. We set up our environment in Visual Studio Code, created our first HTML file, and explored how to view it using the Live Server and HTML Preview extensions. With these foundational skills, you're now ready to dive deeper into web development. Happy coding!
+In this tutorial, we learned the basics of HTML execution by creating a simple "Hello, World!" program. We set up our environment in Visual Studio Code, created our first HTML file, and explored how to view it using the Live Server and HTML Preview extensions. With these foundational skills, you're now ready to dive deeper into web development. Happy coding!

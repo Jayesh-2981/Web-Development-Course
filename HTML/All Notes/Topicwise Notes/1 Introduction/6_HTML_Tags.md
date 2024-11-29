@@ -108,3 +108,7 @@
 - This hierarchy can include self-closing tags as well as nested tags, as illustrated in the picture
 
 <img src="./assets/representation-of-html-tags.png" alt="representation-of-html-tags">
+
+## Conclusion
+
+Understanding HTML tags is essential for creating structured and well-formatted web pages. By mastering commonly used document structure, metadata, text formatting, list, hyperlink, media, form, table, and semantic tags, along with the distinction between paired and unpaired tags, developers can effectively organize content and enhance user experience. This foundational knowledge serves as a stepping stone for further web development skills.

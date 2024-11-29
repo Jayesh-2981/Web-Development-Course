@@ -71,4 +71,4 @@
 
 ## Conclusion
 
-- HTML is the foundational language of the web, enabling the creation and structuring of content. Understanding HTML is essential for anyone looking to build websites or engage with web technologies.
+HTML is the foundational language of the web, enabling the creation and structuring of content. Understanding HTML is essential for anyone looking to build websites or engage with web technologies.

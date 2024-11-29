@@ -43,4 +43,4 @@
 
 ## Conclusion
 
-- HTML is a crucial skill for web development. With the right tools and resources, you can start creating your own web pages today!
+HTML is a crucial skill for web development. With the right tools and resources, you can start creating your own web pages today!

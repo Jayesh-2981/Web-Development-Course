@@ -47,3 +47,7 @@
   It spans multiple lines.
   -->
   ```
+
+## Conclusion
+
+HTML comments are essential tools for enhancing code readability and documentation. By using single-line and multi-line comments effectively, developers can leave helpful notes that improve collaboration and maintainability without affecting the website's output. Remember, comments are for the developer's benefit and are ignored by web browsers, making them a valuable resource in any HTML project.
