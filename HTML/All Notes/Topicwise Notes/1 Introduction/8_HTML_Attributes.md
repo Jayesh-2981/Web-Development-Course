@@ -53,7 +53,7 @@
 
 - Output:
 
-<video src="./assets/tooltip-using-title.mp4" alt="output of title attribute">
+<video src="./assets/tooltip-using-title.mp4" alt="output of title attribute" controls>
 
 ### Style Attribute
 
