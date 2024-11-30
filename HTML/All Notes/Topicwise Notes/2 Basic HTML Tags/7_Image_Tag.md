@@ -16,4 +16,6 @@
   <img src="image's path" />
   ```
 
-  <video src="./assets/imgtagvideo.mp4" controls>
+  <video  controls>
+  <source src="./assets/imgtagvideo.mp4">
+  </video>
