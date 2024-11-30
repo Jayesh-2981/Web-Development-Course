@@ -34,7 +34,7 @@
 
 - As you can see in the video below, the text inside the comment is not rendered
 
-- <video src="./assets/comments.mp4" alt="Single line comment" controls>
+- [Video Sample](./assets/comments.mp4)
 
 ### Multi-line Comments
 

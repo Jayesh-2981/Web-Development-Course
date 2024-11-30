@@ -30,4 +30,4 @@
 
 - It's advisable to use the `<p>` tag for textual content and not for layout control. For layout purposes, consider using HTML5 semantic tags like `<section>`, `<article>`, or CSS techniques.
 
-<video src="./assets/paragraph.mp4" alt="parapgraph tag example" controls>
+- [Video Sample](./assets/paragraph.mp4)

@@ -16,10 +16,4 @@
   <img src="image's path" />
   ```
 
-  <!--
-  <video src="./assets/imgtagvideo.mp4" controls type="video/mp4"> -->
-
-<video controls>
-    <source src="./assets/imgtagvideo.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-</video>
+- [Video Sample](./assets/imgtagvideo.mp4)

@@ -80,7 +80,7 @@
 
 Here is how you can create all these headings:
 
-<video src="./assets/heading tags.mp4" alt="heading tag example" controls>
+- [video sample](./assets/heading%20tags.mp4)
 
 ## Conclusion
 

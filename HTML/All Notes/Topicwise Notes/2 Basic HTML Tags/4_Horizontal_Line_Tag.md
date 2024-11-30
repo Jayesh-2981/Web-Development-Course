@@ -20,4 +20,4 @@
 
 Watch this quick demo video:
 
-<video src="./assets/hr.mp4" alt="Hr tag example" controls>
+- [Video Sample](./assets/hr.mp4)
