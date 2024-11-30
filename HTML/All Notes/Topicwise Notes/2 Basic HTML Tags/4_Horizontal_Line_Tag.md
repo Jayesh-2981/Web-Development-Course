@@ -21,3 +21,7 @@
 Watch this quick demo video:
 
 - [Video Sample](./assets/hr.mp4)
+
+## Conclusion
+
+The `<hr>` tag is a valuable HTML element used to create horizontal lines that serve as visual separators between sections of content. As a self-closing tag, it simplifies the process of organizing and enhancing the layout of a webpage. By effectively using the `<hr>` tag, developers can improve the readability and structure of their documents, making it easier for users to navigate and digest the information presented.
